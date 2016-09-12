@@ -1,0 +1,71 @@
+body {
+  padding: 50px;
+  overflow: hidden;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.container {
+    background: #fff none repeat scroll 0 0;
+    padding: 20px;
+    width: 100%;
+}
+
+li .row-content {
+    display: inline-block;
+}
+li .row-action-primary {
+    display: inline-block;
+    padding-right: 10px;
+}
+ul.listKapalTimbang  {
+    padding: 0;
+}
+ul.listKapalTimbang li {
+    list-style: outside none none;
+}
+
+li .least-content {
+    position: absolute;
+    right: 10px;
+}
+ul.listKapalTimbang li i {
+    font-size: 40px !important;
+}
+#listKapalTimbang{
+    overflow-x: hidden;
+    overflow-y: hidden;;
+}
+
+.list-group-item {
+    background-color: #fff;
+    border: 0px;
+    border-bottom: 2px solid #ddd;
+    cursor: pointer;
+    display: block;
+    margin-bottom: -1px;
+    padding: 10px 15px;
+    position: relative;
+}
+
+li .list-group-item:hover, li .list-group-item:active {
+    background-color: #f1f1f1;
+}
+#kanan_layar {
+    border-left: 4px solid;
+}
+
+h2 {
+    margin-top: 0;
+}
+#beratTimbangan {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border-bottom: 3px solid;
+    color: red;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+    text-align: right;
+}
+td {
+    text-transform: uppercase;
+}
