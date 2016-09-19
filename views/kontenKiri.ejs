@@ -1,8 +1,11 @@
 <div class="kontenKiri">
 
     <div class="row">
-        <div class="col-md-4">
-            <img class="img-responsive" src="images/barcode.png">
+        <div class="col-md-4  no-padding" id="data-info">
+
+            <div class="barcode">
+              <img class="img-responsive" src="images/barcode.png">
+            </div>
             <br>
             <h2>DETAIL KAPAL</h2>
             <div class="table-responsive">
@@ -55,7 +58,7 @@
             </div>
 
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 no-padding">
             <h2>TOTAL HASIL TIMBANG</h2>
             <div id="listKapalTimbang" class="optiscroll">
                  <ul class="listKapalTimbang">
@@ -78,20 +81,13 @@
 
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 no-padding">
             <!-- <h1>Berat Ikan</h1> -->
-            <div class="row">
-                <div class="col-md-6">
-                    <label>Berat Ikan (Kg)</label>
-                    <h1 id="beratIkan">128<h1>
-                </div>
-                <div class="col-md-6">
-                    <label>Timbangan (kg)</label>
-                    <h1 id="beratTimbangan">000</h1>
-                    <label>Nama Timbangan (<b id="nama_timbangan">-</b>)</label>
-                </div>
+            <div class="reltimbang">
+                <label><a href="http://localhost:3000/timbang">Timbangan (kg)</a></label>
+                <h1 id="beratTimbangan">000</h1>
+                <label>Nama Timbangan (<b id="nama_timbangan">-</b>)</label>
             </div>
-            <br>
 
             <h2>DETAIL TIMBANG</h2>
             <div class="table-responsive">
